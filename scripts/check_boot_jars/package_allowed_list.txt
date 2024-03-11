@@ -271,6 +271,9 @@ com\.nvidia\..*
 com\.oplus\..*
 net\.oneplus\..*
 oplus\..*
+vendor\.oplus\..*
+com\.oneplus\..*
+vendor\.oneplus\..*
 
 # LMOFreeform
 com\.libremobileos\..*
