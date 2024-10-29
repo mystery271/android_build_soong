@@ -117,6 +117,8 @@ def parse_args():
 
   config["LineageDesc"] = config["BuildDesc"]
   config["LineageDevice"] = config["DeviceName"]
+  
+  config["RisingMaintainer"] = ""
 
   config["PihooksGmsFp"] = ""
   config["PihooksGmsModel"] = ""
@@ -248,6 +250,8 @@ def generate_build_info(args):
   print(f"ro.build.flavor={config['BuildFlavor']}")
 
   print(f"ro.lineage.device={config['LineageDevice']}")
+  
+  print(f"ro.rising.maintainer={config['RisingMaintainer']}")
   
   print(f"persist.sys.pihooks_FINGERPRINT={config['PihooksGmsFp']}")
   print(f"persist.sys.pihooks_MODEL={config['PihooksGmsModel']}")
